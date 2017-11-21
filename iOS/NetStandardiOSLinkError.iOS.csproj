@@ -96,12 +96,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetStandardiOSLinkError\NetStandardiOSLinkError.csproj">
-      <Project>{F5E92A04-B19B-4830-B6F5-95BFF76991BC}</Project>
-      <Name>NetStandardiOSLinkError</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
   </ItemGroup>
@@ -119,6 +113,12 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetStandardiOSLinkError\NetStandardiOSLinkError.csproj">
+      <Project>{4D29DF24-278A-4E85-9081-2ED2FB519062}</Project>
+      <Name>NetStandardiOSLinkError</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets')" />
